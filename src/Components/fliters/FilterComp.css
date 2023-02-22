@@ -1,0 +1,46 @@
+.filter-container {
+  width: 70%;
+  margin: 15px auto;
+  /* border: 2px solid yellow; */
+  padding: 5px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 12px;
+}
+
+@media screen and (max-width: 1040px) {
+  .filter-container {
+    width: 65%;
+    margin: 15px auto;
+    font-size: 15px;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  .filter-container {
+    width: 75%;
+    margin: 15px auto;
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .filter-container {
+    width: 90%;
+    margin: 15px auto;
+    font-size: 10px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .filter-container {
+    width: 90%;
+    margin: 15px auto;
+    font-size: 8px;
+    display: grid;
+    grid-template-columns: repeat(3, 30%);
+    row-gap: 10px;
+  }
+}
